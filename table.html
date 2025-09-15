@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Rounded Table with Links</title>
+  <style>
+    table {
+      width: 50%;
+      border-collapse: separate; /* Needed for rounding */
+      border-spacing: 10px 10px; /* Space between rows and cols */
+    }
+    th, td {
+      padding: 10px;
+      text-align: center;
+      background: #3ba9db;
+      border: 1px solid #333;
+      border-radius: 10px; /* Rounded corners for each cell */
+    }
+    a {
+        color: black;
+      text-decoration: none;
+    }
+    caption {
+      font-weight: bold;
+      margin-bottom: 0.5em;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>A Table with Rounded Cells and Links</h2>
+
+  <table>
+    <caption>Contact Information</caption>
+    <tr>
+      <th>Company</th>
+      <th>Link</th>
+      <th>Country</th>
+    </tr>
+    <tr>
+      <td><a href="https://example.com/company1" target="_blank">Alfreds Futterkiste</a></td>
+      <td><a href="mailto:maria@example.com">Maria Anders</a></td>
+      <td>Germany</td>
+    </tr>
+    <tr>
+      <td><a href="https://example.com/company2" target="_blank">Centro comercial Moctezuma</a></td>
+      <td><a href="mailto:francisco@example.com">Francisco Chang</a></td>
+      <td>Mexico</td>
+    </tr>
+  </table>
+</body>
+</html>
