@@ -1,0 +1,22 @@
+div {
+  border: 1px solid black;
+}   
+body {
+  margin: 0;
+  padding: 0;
+}
+.one {
+  color: red;
+}
+.two {
+  background: aqua;
+}
+
+.three {
+  font-size: 20px;
+  color: green;
+}
+
+#one {
+  background: greenyellow;
+}
